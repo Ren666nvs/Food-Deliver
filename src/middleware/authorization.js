@@ -17,7 +17,7 @@ export const authorizationMiddleware = (req, res, next) => {
 
   try {
     jwt.verify(token, "secret");
-    next();
+    next();p
   } catch (err) {
     console.log(token);
     console.log(err);

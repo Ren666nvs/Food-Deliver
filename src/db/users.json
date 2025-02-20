@@ -1,1 +1,6 @@
-[{"name":"bogd","id":1,"username":"kh","password":"1"},{"name":"bold","id":2,"username":"b","password":"2"},{"id":5,"name":"add name","username":"add","password":"3"},{"username":"add","password":"3"}]
+[
+  { "name": "bogd", "id": 1, "username": "kh", "password": "1" },
+  { "name": "bold", "id": 2, "username": "b", "password": "2" },
+  { "id": 5, "name": "add name", "username": "add", "password": "3" },
+  { "username": "add", "password": "3" }
+]
