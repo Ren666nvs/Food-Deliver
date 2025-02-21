@@ -12,9 +12,9 @@
 // // usersRouter.put('/', authorizationMiddleware, updateUser)
 // usersRouter.delete('/',  deleteUser)
 // usersRouter.post('/login', login)
+import express from 'express';
 import { getUsers } from '../controller/users/get-users.js';
 import { createUser } from '../controller/users/create-user.js';
-import express from 'express';
 import { deleteUser } from '../controller/users/delete-user.js';
 import {updateUser} from '../controller/users/update-user.js'
 import { login } from '../controller/users/login.js';
